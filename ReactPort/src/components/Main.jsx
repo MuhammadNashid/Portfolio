@@ -6,7 +6,7 @@ const Main=()=>{
     return(
         <div id="main">
           <img className="w-full h-screen object-cover" src="/src/components/comport.jpeg" alt="" />
-          <div className='w-full h-screen absolute top-0 left-0 bg-white/40'>
+          <div className='w-full h-screen absolute top-0 left-0 bg-white/70'>
         <div className='max-w-[700px] m-auto h-full flex flex-col justify-center lg:items-start items-center  text-blue-950'>
           <h1 className='sm:text-5xl text-4xl front-bold text-gray-800 hover:uppercase font-serif'>
             I'm Muhammad Nashid 
