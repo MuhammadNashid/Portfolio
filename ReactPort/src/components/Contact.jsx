@@ -3,7 +3,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-[url(/src/bg.jpg)]'>
+    <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 '>
       <h1 className='py-4 text-4xl font-bold text-center text-[#001b5e]'>Contact</h1>
       <form
         action='https://getform.io/f/a405f396-f15e-4495-9d9f-e22c0cf5faf5'

@@ -1,7 +1,7 @@
 import React from 'react';
+import {FaGithub} from 'react-icons/fa'
 
-
-const ProjectItem = ({ img, title }) => {
+const ProjectItem = ({ img, title,githubLink }) => {
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]'>
       <img src={img} alt='/' className='rounded-xl group-hover:opacity-10' />
@@ -11,10 +11,9 @@ const ProjectItem = ({ img, title }) => {
         
         </h3>
         {/* <p className='pb-4 pt-2 text-white text-center'>React JS</p> */}
-        <a href='/'>
-          <p className='text-center p-2 mt-3 ml-5 w-24 h-10 rounded-lg bg-white text-gray-700 font-bold cursor-pointer'>
-            More Info
-          </p>
+        <a href={githubLink} target='_blank' rel='noopener noreferrer' className='text-black-400 border border-white bg-white mt-5 flex items-center justify-center space-x-2'>
+           <FaGithub className='text-black'/>
+           <span>GitHub</span>
         </a>
       </div>
     </div>
