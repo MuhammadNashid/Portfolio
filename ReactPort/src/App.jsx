@@ -7,6 +7,7 @@ import Project from './components/Project'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
+
 function App() {
 
 
@@ -14,9 +15,12 @@ function App() {
      <>
    <Main />
    <Nav/>
+
    <Project/>
+
    <Contact/>
    <Footer/>
+ 
   </>
   )
 }

@@ -11,7 +11,7 @@ const ProjectItem = ({ img, title,githubLink }) => {
         
         </h3>
         {/* <p className='pb-4 pt-2 text-white text-center'>React JS</p> */}
-        <a href={githubLink} target='_blank' rel='noopener noreferrer' className='text-black-400 border border-white bg-white mt-5 flex items-center justify-center space-x-2'>
+        <a href={githubLink} target='_blank' rel='noopener noreferrer' className='text-black-400 border border-white bg-white mt-5 flex items-center justify-center space-x-2 rounded'>
            <FaGithub className='text-black'/>
            <span>GitHub</span>
         </a>
