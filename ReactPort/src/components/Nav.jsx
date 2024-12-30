@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import {
     AiOutlineMenu,
     AiOutlineHome,
+    AiOutlineTeam,
     AiOutlineProject,
-    AiOutlineMail,
+   
   } from 'react-icons/ai';
   import { BsPerson } from 'react-icons/bs';
   import { GrProjects } from 'react-icons/gr';
@@ -31,14 +32,21 @@ import {
               <AiOutlineHome size={20} />
               <span className='pl-4'>Home</span>
             </a>
-  
             <a
               onClick={handleNav}
-              href='#Skils'
+              href='#about'
+              className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+            >
+              <AiOutlineTeam size={20} />
+              <span className='pl-4'>about</span>
+            </a>
+            <a
+              onClick={handleNav}
+              href='#skills'
               className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
             >
               <GrProjects size={20} />
-              <span className='pl-4'>Skil</span>
+              <span className='pl-4'>Work</span>
             </a>
   
             <a
@@ -52,19 +60,10 @@ import {
   
             <a
               onClick={handleNav}
-              href='#main'
-              className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
-            >
-              <BsPerson size={20} />
-              <span className='pl-4'>Resume</span>
-            </a>
-  
-            <a
-              onClick={handleNav}
               href='#contact'
               className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
             >
-              <AiOutlineMail size={20} />
+              <BsPerson size={20} />
               <span className='pl-4'>Contact</span>
             </a>
           </div>
@@ -81,7 +80,13 @@ import {
               <AiOutlineHome size={20} />
             </a>
             <a
-              href='#Skils'
+              href='#about'
+              className='rounded-full bg-gray-300  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
+            >
+              <AiOutlineTeam size={20} />
+            </a>
+            <a
+              href='#skills'
               className='rounded-full bg-gray-300  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
             >
               <GrProjects size={20} />
@@ -93,17 +98,12 @@ import {
               <AiOutlineProject size={20} />
             </a>
             <a
-              href='#main'
+              href='#contact'
               className='rounded-full bg-gray-300 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
             >
               <BsPerson size={20} />
             </a>
-            <a
-              href='#contact'
-              className='rounded-full bg-gray-300  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'
-            >
-              <AiOutlineMail size={20} />
-            </a>
+            
           </div>
         </div>
       </div>
@@ -111,5 +111,4 @@ import {
   };
   
   export default Nav;
-
-
+  
