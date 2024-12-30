@@ -20,7 +20,7 @@ const About = () => {
               <br />
               <br />
             </div>
-            <a href="/src/resume.pdf" className="bg-red-900 rounded-lg w-48 h-10 flex justify-center items-center text-white">
+            <a href="/src/resume.pdf" className="bg-red-900 rounded-lg w-48 h-10 flex justify-center items-center text-white ml-[500px]">
               Check Resume
             </a>
           </div>

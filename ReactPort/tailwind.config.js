@@ -5,8 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'bg-move': 'bgMove 10s infinite linear',
+      },
+      keyframes: {
+        bgMove: {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
+        },
+      },
+    },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-motion')],
 }
 
