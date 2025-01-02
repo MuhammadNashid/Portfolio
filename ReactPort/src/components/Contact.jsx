@@ -23,9 +23,16 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-50">
+    <div
+      className="flex justify-center items-center h-screen mt-[-40px]"
+      style={{
+        backgroundImage: 'url(/src/contact.webp)', // Replace with your image URL
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-lg w-full">
-        <h2 className="text-2xl font-semibold text-center text-gray-800 mb-4">Contact Us</h2>
+        <h2 className="text-2xl font-semibold text-center text-gray-800 mb-4">Contact</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
@@ -81,4 +88,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
 

@@ -9,12 +9,12 @@ const Main = () => {
                 <div className='max-w-[700px] m-auto h-full flex flex-col justify-center lg:items-start items-center text-blue-950'>
                     {/* Profile Picture */}
                     <img 
-                        className="w-64 h-64 rounded-full border-2 ms-[500px] border-gray-500 motion-preset-seesaw motion-duration-700 " 
+                        className="w-64 h-64 rounded-full border-2 ms-[500px] border-gray-500 motion-preset-seesaw motion-duration-1500" 
                         src="/src/Njn.jpeg" 
                         alt="Njn" 
                     />
                     
-                    <h1 className=' sm:text-5xl text-4xl font-bold text-gray-800 font-serif motion-preset-wobble motion-duration-1500'>
+                    <h1 className=' sm:text-5xl text-4xl font-bold text-gray-800 font-serif motion-preset-wobble motion-duration-2000'>
                         I'm Muhammad Nashid K
                     </h1>
                     
@@ -37,9 +37,9 @@ const Main = () => {
                     </h2>
                     
                   
-                    <div class="mt-48 flex">
+                    <div class="mt-[470px] flex ">
             <div class="relative mx-auto h-10 w-10 ">
-          <div class="relative ml-80 h-20 w-20 animate-bounce rounded-full border-2 ">
+          <div class="relative ml-80 h-20 w-20 animate-bounce rounded-full border-2" >
           <div class="absolute bottom-0 right-10">
           <div class="relative h-40 animate-bounce">
           <div class="absolute bottom-0 right-0 h-2 w-2 rounded-full bg-black"></div>
