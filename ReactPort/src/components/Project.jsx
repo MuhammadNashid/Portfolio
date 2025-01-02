@@ -1,6 +1,3 @@
-
-
-
 import React from 'react';
 import { useTrail, animated } from '@react-spring/web'; // Import react-spring hooks
 import ProjectItems from './ProjectItems';
