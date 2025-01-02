@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <div 
       id='projects' 
-      className='w-full m-auto md:pl-20 p-4 py-16 mb-10'
+      className='w-full  md:pl-20 p-4 py-16 mb-10'
       style={{
         backgroundImage: `url(${backgroundImg})`, 
         backgroundSize: 'cover', 
@@ -27,7 +27,7 @@ const Projects = () => {
         Nisi praesentium iusto pariatur impedit minus quisquam inventore
         laboriosam sed perferendis.
       </p>
-      <div className='pl-[600px] grid sm:grid-cols-2 gap-12 w-[1300px] h-full'>
+      <div className='pl-[300px] grid sm:grid-cols-2 gap-12 w-[1000px] h-full'>
         <ProjectItems img={instaImg} title='Instagram' githubLink='https://github.com/MuhammadNashid/InstaReact.git'/>
         <ProjectItems img={flipcartImg} title='Flipcart'  githubLink='https://github.com/MuhammadNashid/ReactFlip.git' />
         <ProjectItems img={olxImg} title='OLX' githubLink= 'https://github.com/MuhammadNashid/ReactOLX.git'/>
