@@ -24,7 +24,7 @@ const Contact = () => {
 
   return (
     <div
-      className="flex justify-center items-center h-screen mt-[-40px]"
+      className="flex justify-center items-center h-screen mt-[-37px] "
       style={{
         backgroundImage: 'url(/src/contact.webp)', // Replace with your image URL
         backgroundSize: 'cover',

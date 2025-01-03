@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section 
       id="about" 
-      className="py-10 h-[600px] text-white bg-cover bg-center relative overflow-hidden animate-bg-animation bg-[url('/src/abt.jpg')] bg-size-[200%]">
+      className="py-10 h-[600px] mt-1 text-white bg-cover bg-center relative overflow-hidden animate-bg-animation bg-[url('/src/abt.jpg')] bg-size-[200%]">
       <div className="text-center p-40">
 
         <h3 className="text-4xl font-semibold">

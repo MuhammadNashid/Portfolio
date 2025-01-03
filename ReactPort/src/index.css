@@ -13,3 +13,29 @@
       background-position: 0% 50%;
     }
   }
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .blinking-dots::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy5zY3JlZW5zaG90Lm9yZy9zY3JlZW5zaG90...') repeat;
+    background-size: 5px 5px;
+    animation: blink 1.5s infinite;
+    pointer-events: none;
+  }
+  

@@ -9,48 +9,31 @@ export default {
       animation: {
         'bg-move': 'bgMove 10s infinite linear',
         'bg-animation': 'backgroundAnimation 10s ease-in-out infinite',
-        gradient: 'gradientAnimation 10s ease infinite',
-        float: 'float 10s infinite ease-in-out',
-        'bg-move': 'bgMove 10s linear infinite',
+        moveDots: 'moveDots 4s infinite ease-in-out',
+        fadeIn: 'fadeIn 1s ease-in-out',
       },
       keyframes: {
-        bgMove: {
-          '0%': { backgroundPosition: '0% 50%' },
-          '50%': { backgroundPosition: '100% 50%' },
-          '100%': { backgroundPosition: '0% 50%' },
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
         },
         backgroundAnimation: {
           '0%': { 'background-position': '0% 0%' },
           '50%': { 'background-position': '100% 100%' },
           '100%': { 'background-position': '0% 0%' },
         },
-        gradientAnimation: {
+        moveDots: {
           '0%': {
-            'background-position': '0% 50%',
+            transform: 'translate(0, 0)',
           },
           '50%': {
-            'background-position': '100% 50%',
+            transform: 'translate(30px, 30px)',
           },
           '100%': {
-            'background-position': '0% 50%',
+            transform: 'translate(0, 0)',
           },
         },
-        float: {
-          '0%': { transform: 'translateY(0) scale(1)', opacity: '0' },
-          '50%': { transform: 'translateY(-200px) scale(1.5)', opacity: '1' },
-          '100%': { transform: 'translateY(0) scale(1)', opacity: '0' },
-        },
-        bgMove: {
-          '0%': {
-            backgroundPosition: '0% 50%',
-          },
-          '50%': {
-            backgroundPosition: '100% 50%',
-          },
-          '100%': {
-            backgroundPosition: '0% 50%',
-          },
-        },
+        
       },
       colors: {
         'gradient-start': '#ff7e5f',
